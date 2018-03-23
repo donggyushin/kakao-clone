@@ -37,3 +37,7 @@
 .top-header .header__number {
   color: yellow;
 }
+
+.top-header .header__bottom .header__column:first-child {
+  color: rgb(134, 117, 102);
+}
