@@ -5,7 +5,7 @@
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  border-top: solid grey 1px;
+  border-top: solid #dcdcdc 1px;
   padding: 10px 30px 5px 30px;
 }
 
