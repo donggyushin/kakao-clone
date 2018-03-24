@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header class="top-header">
+    <header class="top-header top-header--transparent">
       <div class="header__top">
           <div class="header__column">
             <i class="fas fa-plane"></i>
@@ -41,22 +41,26 @@
 
     <main class="profile">
       <header class="profile__header">
-        <img src="images/avatar.jpg" alt="">
-        <h3 class="profile__header-title">Donggyu</h3>
-      </header>
-      <input type="text" placeholder="donggyu9410@gamil.com">
-      <div class="profile__actions">
-        <div class="profile__action">
-          <span class="profile__action-circle">
-            <i class="fas fa-comment fa-2x"></i>
-          </span>
-          <span class="profile__action-title">my chatroom</span>
+        <div class="profile__header-container">
+          <img src="images/avatar.jpg" alt="">
+          <h3 class="profile__header-title">Donggyu</h3>
         </div>
-        <div class="profile__action">
-          <span class="profile__action-circle">
-            <i class="fas fa-edit fa-2x"></i>
-          </span>
-          <span class="profile__action-title">Edit profile</span>
+      </header>
+      <div class="profile__main-container">
+        <input type="text" placeholder="donggyu9410@gamil.com">
+        <div class="profile__actions">
+          <div class="profile__action">
+            <span class="profile__action-circle">
+              <i class="fas fa-comment fa-lg"></i>
+            </span>
+            <span class="profile__action-title">my chatroom</span>
+          </div>
+          <div class="profile__action">
+            <span class="profile__action-circle">
+              <i class="fas fa-edit fa-lg"></i>
+            </span>
+            <span class="profile__action-title">Edit profile</span>
+          </div>
         </div>
       </div>
     </main>
