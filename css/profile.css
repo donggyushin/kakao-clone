@@ -3,7 +3,7 @@
 }
 
 .profile .profile__header {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   background-image: url("https://www.setaswall.com/wp-content/uploads/2017/10/Material-Design-Wallpaper-1080x1920.jpg");
   position: relative;
@@ -38,6 +38,7 @@
   flex-direction: column;
   margin-top: 15px;
   align-items: center;
+  height: 10vh;
 }
 
 .profile .profile__main-container .profile__actions {

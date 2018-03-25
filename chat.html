@@ -9,8 +9,8 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
-    <header class="top-header">
+  <body class="body-chat">
+    <header class="top-header chat-header">
       <div class="header__top">
           <div class="header__column">
             <i class="fas fa-plane"></i>
@@ -52,20 +52,22 @@
     <img class="chat__message-avatar" src="images/avatar.jpg" alt="">
     <div class="chat__message-center">
         <h3 class="chat__message-username">Anna</h3>
-        <span class="chat__message-body">This is a test answer.</span>
+        <div class="chat__message-text">
+          <span class="chat__message-body">This is a test answer.</span>
+        </div>
     </div>
     <span class="chat__message-time">19:55</span>
   </div>
 </main>
 <div class="type-message">
-  <i class="fas fa-plus"></i>
+  <i class="fas fa-plus" id="plus-icon"></i>
   <div class="type-message__input">
-    <input type="text"><i class="far fa-smile"></i>
+    <input type="text"><i class="fas fa-smile fa-lg" id="smile-icon"></i>
     <span class="record-message">
       <i class="fas fa-microphone"></i>
     </span>
   </div>
-
 </div>
+
   </body>
 </html>

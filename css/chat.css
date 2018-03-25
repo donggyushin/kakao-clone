@@ -1,0 +1,132 @@
+.body-chat {
+  z-index: 2;
+  padding-bottom: 0px;
+}
+
+.chat-header,
+.chat-header a {
+  background-color: #a0c0d7;
+  color: black;
+}
+
+.chat-header {
+  border-bottom: solid 1px rgb(149, 165, 167);
+}
+
+.chat {
+  background-color: #a0c0d7;
+  height: 86vh;
+  position: relative;
+  top: -2px;
+  padding-top: 15px;
+}
+
+.chat .date-divider {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(111, 119, 118);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.chat .chat__message-from-me {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chat__message-from-me .chat__message-time {
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(111, 119, 118);
+}
+
+.chat__message-to-me {
+  margin-left: 10px;
+}
+
+.chat__message-to-me .chat__message-time {
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(111, 119, 118);
+}
+
+.chat__message-center .chat__message-username {
+  margin-bottom: 15px;
+}
+
+.chat__message-center .chat__message-body {
+  background-color: white;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.chat__message-from-me .chat__message-body {
+  background-color: #fae100;
+  padding: 6px;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.chat__message-from-me {
+  margin-bottom: 15px;
+}
+
+.chat .chat__message-to-me {
+  display: flex;
+}
+
+.chat .chat__message-to-me .chat__message-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.type-message {
+  background-color: #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.type-message .type-message__input {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.type-message .type-message__input input {
+  width: 100%;
+  padding: 8px;
+}
+
+#smile-icon {
+  position: relative;
+  left: -30px;
+  color: rgb(132, 137, 149);
+}
+
+#plus-icon {
+  color: rgb(132, 137, 149);
+}
+
+.type-message .record-message {
+  background-color: #fae100;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  position: relative;
+  right: 12px;
+  cursor: pointer;
+}
