@@ -58,4 +58,11 @@
   bottom: 73px;
   font-size: 28px;
   color: #3b1f1e;
+  transition: color 0.3s, background-color 0.3s, transform 0.5s ease-in-out;
+}
+
+.chat-btn:hover {
+  color: white;
+  background-color: #3b1f1e;
+  transform: rotateY(360deg);
 }
